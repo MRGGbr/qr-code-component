@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:wght@500;700;900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    font-size: 62.5%;
+
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+
+    height: 100vh;
+    min-width: 37rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: var(--Lightgray);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 32rem;
+    height: 50rem;
+    padding: 2rem;
+    border-radius: 2rem;
+
+    background-color: var(--White);
+}
+.painel img {
+    width: 28.8rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.painel h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+
+    margin: 3.5rem 2rem 0 2rem;
+
+    color: var(--Darkblue);
+}
+.painel p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+
+    margin: 2rem 2rem 2.3rem 2rem;
+
+    color: var(--Grayishblue);
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
